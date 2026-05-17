@@ -1,0 +1,241 @@
+[
+    {
+        "id": "decision",
+        "title": "数据罗盘",
+        "icon": "fas fa-folder",
+        "url": "",
+        "view": "",
+        "children": [
+            {
+                "id": "dashboard",
+                "title": "渠道效能",
+                "icon": "fas fa-circle",
+                "url": "channel_efficiency.php",
+                "view": "channel_efficiency",
+                "children": []
+            },
+            {
+                "id": "statistics_demo",
+                "title": "项目效能",
+                "icon": "fas fa-circle",
+                "url": "analytics_project.php",
+                "view": "analytics_project",
+                "children": []
+            },
+            {
+                "id": "m_a91txgwe",
+                "title": "竞对数据",
+                "icon": "fas fa-circle",
+                "url": "compete_list.php",
+                "view": "compete_list",
+                "children": []
+            }
+        ]
+    },
+    {
+        "id": "biz",
+        "title": "数据中心",
+        "icon": "fas fa-folder",
+        "url": "",
+        "view": "",
+        "children": [
+            {
+                "id": "filings",
+                "title": "报备统计表",
+                "icon": "fas fa-circle",
+                "url": "admin_filings.php",
+                "view": "admin_filings",
+                "children": []
+            },
+            {
+                "id": "followup_records",
+                "title": "带看统计表",
+                "icon": "fas fa-circle",
+                "url": "followup_records.php",
+                "view": "followup_records",
+                "children": []
+            },
+            {
+                "id": "finance",
+                "title": "成交统计表",
+                "icon": "fas fa-circle",
+                "url": "admin_finance.php",
+                "view": "admin_finance",
+                "children": []
+            },
+            {
+                "id": "m_e8k3zp2j",
+                "title": "渠道跟进表",
+                "icon": "fas fa-circle",
+                "url": "followup_records1.php",
+                "view": "followup_records1",
+                "children": []
+            },
+            {
+                "id": "m_08pzl9rj",
+                "title": "商户效能表",
+                "icon": "fas fa-circle",
+                "url": "admin_statistics_companies.php",
+                "view": "admin_statistics_companies",
+                "children": []
+            },
+            {
+                "id": "m_ayfpet5r",
+                "title": "经纪人效能表",
+                "icon": "fas fa-circle",
+                "url": "analytics.php",
+                "view": "analytics",
+                "children": []
+            }
+        ]
+    },
+    {
+        "id": "resource_manage",
+        "title": "资源管理",
+        "icon": "fas fa-folder",
+        "url": "",
+        "view": "",
+        "children": [
+            {
+                "id": "companies",
+                "title": "商户明细",
+                "icon": "fas fa-circle",
+                "url": "admin_companies.php",
+                "view": "admin_companies",
+                "children": []
+            },
+            {
+                "id": "agent_import",
+                "title": "经纪人管理",
+                "icon": "fas fa-circle",
+                "url": "agent_import.php",
+                "view": "agent_import",
+                "children": []
+            },
+            {
+                "id": "compete_admin",
+                "title": "竞对项目管理",
+                "icon": "fas fa-circle",
+                "url": "compete_admin.php",
+                "view": "compete_admin",
+                "children": []
+            },
+            {
+                "id": "m_4rri6j2z",
+                "title": "批量导入数据",
+                "icon": "fas fa-circle",
+                "url": "import.php",
+                "view": "import",
+                "children": []
+            },
+            {
+                "id": "m_g6zz18uv",
+                "title": "项目库",
+                "icon": "fas fa-circle",
+                "url": "admin_projects.php",
+                "view": "admin_projects",
+                "children": []
+            }
+        ]
+    },
+    {
+        "id": "system",
+        "title": "系统管理",
+        "icon": "fas fa-folder",
+        "url": "",
+        "view": "",
+        "children": [
+            {
+                "id": "m_5zu63yew",
+                "title": "部门管理",
+                "icon": "fas fa-circle",
+                "url": "admin_agents.php",
+                "view": "admin_agents",
+                "children": [
+                    {
+                        "id": "m_la5ctmyq",
+                        "title": "管理员管理",
+                        "icon": "fas fa-angle-right",
+                        "url": "admin_manage_admins.php",
+                        "view": "admin_manage_admins",
+                        "children": []
+                    },
+                    {
+                        "id": "m_cyra6ev1",
+                        "title": "内部架构",
+                        "icon": "fas fa-angle-right",
+                        "url": "admin_agents.php",
+                        "view": "admin_agents",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "id": "import",
+                "title": "数据导入",
+                "icon": "fas fa-circle",
+                "url": "import.php",
+                "view": "import",
+                "children": [
+                    {
+                        "id": "m_xk3yjf7y",
+                        "title": "批量报备导入",
+                        "icon": "fas fa-angle-right",
+                        "url": "batch_import.php",
+                        "view": "batch_import",
+                        "children": []
+                    },
+                    {
+                        "id": "m_rpgco05n",
+                        "title": "商户竞对代理导入",
+                        "icon": "fas fa-angle-right",
+                        "url": "import.php",
+                        "view": "import",
+                        "children": []
+                    },
+                    {
+                        "id": "m_z0dal60a",
+                        "title": "跟进概述管理",
+                        "icon": "fas fa-angle-right",
+                        "url": "admin_followup_summaries.php",
+                        "view": "admin_followup_summaries",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "id": "menu_builder",
+                "title": "菜单配置",
+                "icon": "fas fa-circle",
+                "url": "menu_builder.php",
+                "view": "menu_builder",
+                "children": []
+            }
+        ]
+    },
+    {
+        "id": "m_7h3gvt4n",
+        "title": "财务中心",
+        "icon": "fas fa-folder",
+        "url": "",
+        "view": "",
+        "children": [
+            {
+                "id": "m_z63osds0",
+                "title": "成交订单",
+                "icon": "fas fa-circle",
+                "url": "admin_finance.php",
+                "view": "admin_finance",
+                "children": []
+            },
+            {
+                "id": "m_ud9rex47",
+                "title": "异常订单",
+                "icon": "fas fa-circle",
+                "url": "1",
+                "view": "1",
+                "children": []
+            }
+        ]
+    }
+]
